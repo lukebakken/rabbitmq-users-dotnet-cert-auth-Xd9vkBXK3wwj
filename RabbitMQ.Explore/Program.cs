@@ -28,7 +28,7 @@ namespace RabbitMQ.Explore
         static void Main(string[] args)
         {
             Program program = new Program();
-            program.RabbitMQWithoutSSLEnable();
+            //program.RabbitMQWithoutSSLEnable();
             program.RabbitMQWithSSLEnable();
             Console.WriteLine();
             Console.WriteLine("Press Enter to Exit !!");
