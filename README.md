@@ -13,7 +13,16 @@
 * Run client application in another Powershell session
     ```
     dotnet build
+    cd RabbitMQ.Explore
+    dotnet run
     ```
+* Revert changes
+    ```
+    cd -
+    git restore RabbitMQ.Explore/appsettings.json
+    ```
+
+Note: you can run the project from Visual Studio as well, just be sure that `appsettings.json` contains the relative path to the `pfx` certificate.
 
 ## Info
 
